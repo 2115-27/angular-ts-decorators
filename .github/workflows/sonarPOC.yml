@@ -14,8 +14,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.organization=
-            -Dsonar.projectKey=
+            -Dsonar.organization=2115-27
+            -Dsonar.projectKey=2115-27_angular-ts-decorators
             -Dsonar.sources=src
             -Dsonar.language=ts
         env:
