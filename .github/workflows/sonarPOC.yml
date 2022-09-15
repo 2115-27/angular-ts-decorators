@@ -18,6 +18,7 @@ jobs:
             -Dsonar.projectKey=2115-27_angular-ts-decorators
             -Dsonar.sources=src
             -Dsonar.language=ts
+            -Dsonar.branch.name=${{ github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
