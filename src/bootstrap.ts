@@ -1,5 +1,5 @@
 import { bootstrap, element, IModule } from 'angular';
-import { NgModule } from './module';
+
 
 export interface CompilerOptions {
   strictDi?: boolean;
